@@ -1,0 +1,19 @@
+========================================================= test session starts =========================================================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Eduardo\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Eduardo\Desktop\Programacao\facul\desenvolvimento de software\Atividade em Sala - Ciclo Vermelho-Verde-Refatorar
+collected 11 items                                                                                                                     
+
+test_garantia.py::test_tipo_data_devolve_o_fim_informado PASSED                                                                  [  9%]
+test_garantia.py::test_tipo_meses_soma_os_meses_a_data_da_compra PASSED                                                          [ 18%]
+test_garantia.py::test_tipo_vitalicia_nao_tem_fim PASSED                                                                         [ 27%]
+test_garantia.py::test_meses_em_fim_de_mes_usa_o_ultimo_dia_do_mes_de_destino[data_compra0-1-esperado0] PASSED                   [ 36%]
+test_garantia.py::test_meses_em_fim_de_mes_usa_o_ultimo_dia_do_mes_de_destino[data_compra1-1-esperado1] PASSED                   [ 45%]
+test_garantia.py::test_meses_em_fim_de_mes_usa_o_ultimo_dia_do_mes_de_destino[data_compra2-4-esperado2] PASSED                   [ 54%]
+test_garantia.py::test_tipo_data_sem_fim_levanta_erro PASSED                                                                     [ 63%]
+test_garantia.py::test_tipo_data_com_fim_antes_da_compra_levanta_erro PASSED                                                     [ 72%]
+test_garantia.py::test_tipo_meses_sem_data_da_compra_levanta_erro PASSED                                                         [ 81%]
+test_garantia.py::test_tipo_meses_com_zero_meses_levanta_erro PASSED                                                             [ 90%]
+test_garantia.py::test_tipo_desconhecido_levanta_erro PASSED                                                                     [100%]
+
+========================================================= 11 passed in 0.03s ==========================================================
